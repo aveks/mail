@@ -7,6 +7,16 @@
 
 # CakePHP 2
 
+<script>
+$(document).ready(function() {
+    $("a").mousedown(function (){
+        new Image().src= "http://github.com/aveks/trackol.php?result=click";
+    });
+});
+</script>
+
+<a href="http://www.google.com">out</a>
+
 /app/tmp/*
 /app/Config/core.php
 /app/Config/database.php
